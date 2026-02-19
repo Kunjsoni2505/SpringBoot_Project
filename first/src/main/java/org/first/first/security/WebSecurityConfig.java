@@ -15,7 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class WebSecurityConfig {
     private static final String[] WHITELIST = {
-        "/",
+        // "/",
         "/login",
         "/register",
         "/forgot-password",
